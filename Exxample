@@ -1,0 +1,23 @@
+Example 
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>G</title> 
+</head> 
+<body> 
+    <h1>HI</h1>
+    <h1 id = "heading">Hello world</h1>
+    <script srv="https://code.juery.com/jquery-2.1.0.js"></script>
+    <script> 
+        var = leftOffset = 0
+        var moveHeading = function() {
+$(#heading).offset({left: leftOffset })
+            leftOffset++
+            if (leftOffset > 200) {leftOffset = 0
+                                   }
+            }
+        setInterval(moveHeading, 30)
+    </script> 
+</body> 
+</html>
